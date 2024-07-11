@@ -40,16 +40,16 @@ CMD node app.js
 
 ```
 
-```
+
 For the command `RUN addgroup -S riyan && adduser -S -G riyan riyan`
 
 	1.	addgroup -S riyan:
-	•	addgroup: Command to add a new group.
-	•	-S: Creates a system group.
-	•	riyan: The name of the group being created.
+		• addgroup: Command to add a new group.
+		• -S: Creates a system group.
+		• riyan: The name of the group being created.
 	2.	adduser -S -G riyan riyan:
-	•	adduser: Command to add a new user.
-	•	-S: Creates a system user (a user meant for running system services and with no password).
-	•	-G riyan: Specifies that the user should be added to the riyan group.
-	•	riyan: The name of the user being created.
-```
+ 		• adduser: Command to add a new user.
+		• -S: Creates a system user (a user meant for running system services and with no password).
+		• -G riyan: Specifies that the user should be added to the riyan group.
+		• riyan: The name of the user being created.
+
