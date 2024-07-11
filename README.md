@@ -53,3 +53,6 @@ For the command `RUN addgroup -S riyan && adduser -S -G riyan riyan`
 		• -G riyan: Specifies that the user should be added to the riyan group.
 		• riyan: The name of the user being created.
 
+
+For the command : `RUN npm install --unsafe-perm`
+The `--unsafe-perm` flag in the command `RUN npm install --unsafe-perm` allows certain installation scripts to run with higher permissions. Normally, when npm runs these scripts, it limits their permissions for safety, especially if npm is running as the root user. However, some packages need higher permissions to install correctly. The `--unsafe-perm` flag ensures these scripts can run with the permissions they need to avoid any issues during installation.
